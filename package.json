@@ -1,8 +1,8 @@
 {
-  "name": "swagger-js-codegen",
+  "name": "@notthatnathan/swagger-to-js",
   "main": "./lib/codegen.js",
-  "version": "1.13.0",
-  "description": "A Swagger codegen for JavaScript",
+  "version": "1.0.0",
+  "description": "A Swagger codegen for JavaScript. Adds tags support.",
   "scripts": {
     "test": "grunt",
     "clean": "rm -rf tmp-*"
@@ -11,11 +11,11 @@
     "swagger2js": "bin/swagger2js.js"
   },
   "bugs": {
-    "url": "https://github.com/wcandillon/swagger-js-codegen/issues"
+    "url": "https://github.com/notthatnathan/swagger-js-codegen/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/wcandillon/swagger-js-codegen.git"
+    "url": "git://github.com/notthatnathan/swagger-js-codegen.git"
   },
   "keywords": [
     "swagger",
@@ -27,7 +27,7 @@
     "url": "http://28.io"
   },
   "license": "Apache-2.0",
-  "homepage": "https://github.com/wcandillon/swagger-js-codegen",
+  "homepage": "https://github.com/notthatnathan/swagger-js-codegen",
   "dependencies": {
     "commander": "^2.9.0",
     "js-beautify": "^1.5.1",
